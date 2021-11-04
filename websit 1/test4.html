@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="test4.css">
+    <link rel="stylesheet" href="nav.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bx-won'></i>
+                <div class="logo_name">workera</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <a href="#">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+                <a href="New folder/test3.html">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name">User</span>
+                </a>
+                <span class="tooltip">User</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-chat'></i>
+                    <span class="links_name">Messages</span>
+                </a>
+                <span class="tooltip">Messages</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-sitemap'></i>
+                    <span class="links_name">project </span>
+                </a>
+                <span class="tooltip">project </span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-contact'></i>
+                    <span class="links_name">contact us</span>
+                </a>
+                <span class="tooltip">contact us </span>
+            </li>
+            <li class="log_out">
+                <a href="#">
+                    <i class='bx bx-log-out' id="log_out"></i>
+                    <span class="links_name">log_out</span>
+                </a>
+                <span class="tooltip">log_out</span>
+            </li>
+        </ul>
+    </div>
+
+    <section class="home_content">
+        <div class="nav_top">
+            <div class="continer1">
+                <div class="nav_top_left">
+                    <ul>
+                        <li><a class="ico1">Team Name<span class="name_team">\</span></a></li>
+                    </ul>
+
+                    <div id="myModal">
+                        <input type="text">
+                        <div class="a_ico2">
+                            <a class="ico2"><i class="fas fa-search"></i></a>
+                            <a class="ico2" id="span"><i class="fas fa-times"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_top_right">
+                    <ul>
+                        <!--<li><a role="button" class="ico1" id="myBtn"><i class="fas fa-search"></i></a></li-->
+                        <li><a role="button" class="ico1"><i class="far fa-comments"></i></a></li>
+                        <li><a role="button" class="ico1"><i class="far fa-bell"></i></a></li>
+                        <li><a role="button" class="ico1" data-widget="fullscreen"><i class="fas fa-expand-arrows-alt"></i></a></li>
+                        <li>
+                            <a role="button" class="ico1"><img src="http://placehold.it/40/" href="test3.html" class="img_user" alt="User Image"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="container3">
+                <div class="info_body">
+                    <div class="info_task">
+                        <a class="name_task">Name task</a>
+                        <a role="button" onclick="myFunction3()" class="edit_proj"><i class="fas fa-cog"></i></a>
+                        <div class="time">
+                            <a class="start">sun-30/3/2020</a>
+                            <a class="end">sun-30/3/20/2021</a>
+                        </div>
+                        <a class="name_proj">Name project</a>
+                        <div class="time" style="width: 430px;border-radius: 20px;background: rgb(0, 0, 0);margin: -27px 0 0 0;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;border-radius: 20px;padding: 0 0 0 30px;background: rgb(92, 92, 92);">
+                                70%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dec">
+                        <div class="Des_title">
+                            <a>Des</a>
+                        </div>
+                        <p>type, kind, sort, nature, description, character mean a number of individuals thought of as a group because of a common quality or qualities. type may suggest strong and clearly marked similarity throughout the items included so
+                            that each is typical of the group. one of three basic body types kind may suggest natural grouping. a zoo seemingly having animals of every kind sort often suggests some disparagement. the sort of newspaper dealing in sensational
+                            stories nature may imply inherent, essential resemblance rather than obvious or superficial likenesses. two problems of a similar nature description plies a group marked by agreement in all details belonging to a type as described
+                            or defined. not all acts of that description are actually illegal character implies a group marked by distinctive likenesses peculiar to the type.</p>
+                    </div>
+                    <div class="check_points">
+
+                        <div class="check_title">
+                            <a>checkpoints</a>
+                        </div>
+                        <div class="point">
+                            <input type="checkbox" style="font-size: 20px;">
+                            <a style="font-size: 20px;">check point 1</a>
+                            <a role="button" onclick="myFunction4()" class="edit_point"><i class="fas fa-cog"></i></a>
+                            <p>type, kind, sort, nature, description, character mean a number of individuals thought of as a group because of a common quality or qualities. type may suggest strong and clearly marked similarity throughout the items included
+                                so that each is typical of the group. </p>
+                        </div>
+                        <div class="point">
+                            <input type="checkbox" style="font-size: 20px;">
+                            <a style="font-size: 20px;">check point 1</a>
+                            <a role="button" onclick="myFunction4()" class="edit_point"><i class="fas fa-cog"></i></a>
+                            <p>type, kind, sort, nature, description, character mean a number of individuals thought of as a group because of a common quality or qualities. type may suggest strong and clearly marked similarity throughout the items included
+                                so that each is typical of the group. </p>
+                        </div>
+                        <div class="point">
+                            <input type="checkbox" style="font-size: 20px;">
+                            <a style="font-size: 20px;">check point 1</a>
+                            <a role="button" onclick="myFunction4()" class="edit_point"><i class="fas fa-cog"></i></a>
+                            <p>type, kind, sort, nature, description, character mean a number of individuals thought of as a group because of a common quality or qualities. type may suggest strong and clearly marked similarity throughout the items included
+                                so that each is typical of the group. </p>
+                        </div>
+                        <div class="point">
+                            <input type="checkbox" style="font-size: 20px;">
+                            <a style="font-size: 20px;">check point 1</a>
+                            <a role="button" onclick="myFunction4()" class="edit_point"><i class="fas fa-cog"></i></a>
+                            <p>type, kind, sort, nature, description, character mean a number of individuals thought of as a group because of a common quality or qualities. type may suggest strong and clearly marked similarity throughout the items included
+                                so that each is typical of the group. </p>
+                        </div>
+                    </div>
+                    <div class="activity">
+                        <div class="activity_title">
+                            <a>activity</a>
+                        </div>
+                        <div class="all_msg">
+                            <ul>
+                                <li class="big_msg">
+                                    <div>
+                                        <a class="msg">
+                                            <img src="http://placehold.it/40/" class="img_user_user" alt="User Image">
+                                            <p style="line-height: 25px;">hiزبيلالبياﻻيبلﻻايبليبلبﻻىتناشسثيبتنثfsedfnkjfnjksdfnfjkedfnkvjnedfjkvn jkldnfjkedfsnvjkndfs kuvnuksdf fkjndfkfjvnsdfjklv aksdunfjkhdfn fjksdfnfjk ndsfjkfn efjk njkdf nfgjkfsn fgjhfb ngjhb dfjgb nkdfsvnmvluieoivfmedsfuiviklsdfj
+                                                vbkjl ednvuiler nmvujikedrfjklv defkj vnkjdf nvkjldfn vkldf nkvudnfuikiv dfkluivjkdulfv dkfv jkd</p>
+                                        </a>
+                                        <p class="replay">replay</p>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <a class="msg"><img src="http://placehold.it/40/" class="img_user_user" alt="User Image">
+                                                    <p style="line-height: 25px;">hiزبيلالبياﻻيبلﻻايبليبلبﻻىتناشسثيبتنثfsedfnkjfnjksdfnfjkedfnkvjnedfjkvn jkldnfjkedfsnvjkndfs kuvnuksdf fkjndfkfjvnsdfjklv aksdunfjkhdfn fjksdfnfjk ndsfjkfn efjk njkdf nfgjkfsn fgjhfb ngjhb dfjgb nkdfsvnmvluieoivfmedsfuiviklsdfj
+                                                        vbkjl ednvuiler nmvujikedrfjklv defkj vnkjdf nvkjldfn vkldf nkvudnfuikiv dfkluivjkdulfv dkfv jkd</p>
+                                                </a>
+                                                <p class="replay">replay</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="big_msg">
+                                    <div>
+                                        <a class="msg">
+                                            <img src="http://placehold.it/40/" class="img_user_user" alt="User Image">
+                                            <p style="line-height: 25px;">hiزبيلالبياﻻيبلﻻايبليبلبﻻىتناشسثيبتنثfsedfnkjfnjksdfnfjkedfnkvjnedfjkvn jkldnfjkedfsnvjkndfs kuvnuksdf fkjndfkfjvnsdfjklv aksdunfjkhdfn fjksdfnfjk ndsfjkfn efjk njkdf nfgjkfsn fgjhfb ngjhb dfjgb nkdfsvnmvluieoivfmedsfuiviklsdfj
+                                                vbkjl ednvuiler nmvujikedrfjklv defkj vnkjdf nvkjldfn vkldf nkvudnfuikiv dfkluivjkdulfv dkfv jkd</p>
+                                        </a>
+                                        <p class="replay">replay</p>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <a class="msg">
+                                                    <img src="http://placehold.it/40/" class="img_user_user" alt="User Image">
+                                                    <p style="line-height: 25px;"> hiزبيلالبياﻻيبلﻻايبليبلبﻻىتناشسثيبتنثfsedfnkjfnjksdfnfjkedfnkvjnedfjkvn jkldnfjkedfsnvjkndf</p>
+                                                </a>
+                                                <p class="replay">replay</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="input_text">
+                            <input class="input_text1" type="text">
+                            <a class="bottom_text"><i class="fas fa-paperclip"></i></a>
+                            <a class="bottom_text2"><i class="fas fa-share"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="edite1" id="nav7">
+                <div class="data1">
+                    <a onclick="myFunction3()" role="button" style="float: right;width: auto;margin-top: 10px;">
+                        <i class="fas fa-cog"></i>
+                    </a>
+                    <ul>
+                        <li>
+                            <a>Name task</a>
+                            <input type="text">
+                        </li>
+                        <li>
+                            <a>from</a>
+                            <input type="date">
+                        </li>
+                        <li>
+                            <a>to</a>
+                            <input type="date">
+                        </li>
+                        <li>
+                            <a>des</a>
+                            <textarea type="text"></textarea>
+                        </li>
+                    </ul>
+                    <button>Edite</button>
+                </div>
+            </div>
+            <div class="edite1" id="nav6">
+                <div class="data1">
+                    <a onclick="myFunction4()" role="button" style="float: right;width: auto;margin-top: 10px;">
+                        <i class="fas fa-cog"></i>
+                    </a>
+                    <ul>
+                        <li>
+                            <a>Name check point</a>
+                            <input type="text">
+                        </li>
+                        <li>
+                            <a>des</a>
+                            <textarea type="text"></textarea>
+                        </li>
+                    </ul>
+                    <button>Edite</button>
+                    <ul>
+                        <li>
+                            <a>Make sab Task</a>
+                            <input type="text">
+                        </li>
+                        <li>
+                            <a>des</a>
+                            <textarea type="text"></textarea>
+                        </li>
+                        <li id="div-container">
+                            <a>checkpoint <p onclick="myFunction5()" role="button" style="width: auto;display: contents;"><i class="fas fa-cog"></i></p></a>
+                            <div id="div-container">
+                                <input type="text">
+                            </div>
+                        </li>
+                    </ul>
+                    <button>Add</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="all.js"></script>

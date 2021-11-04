@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="test1.css">
+    <link rel="stylesheet" href="nav.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bx-won'></i>
+                <div class="logo_name">workera</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <a href="#">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+                <a href="New folder/test3.html">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name">User</span>
+                </a>
+                <span class="tooltip">User</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-chat'></i>
+                    <span class="links_name">Messages</span>
+                </a>
+                <span class="tooltip">Messages</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-sitemap'></i>
+                    <span class="links_name">project </span>
+                </a>
+                <span class="tooltip">project </span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-contact'></i>
+                    <span class="links_name">contact us</span>
+                </a>
+                <span class="tooltip">contact us </span>
+            </li>
+            <li class="log_out">
+                <a href="#">
+                    <i class='bx bx-log-out' id="log_out"></i>
+                    <span class="links_name">log_out</span>
+                </a>
+                <span class="tooltip">log_out</span>
+            </li>
+        </ul>
+    </div>
+
+    <section class="home_content">
+        <div class="nav_top">
+            <div class="continer1">
+                <div class="nav_top_left">
+                    <ul>
+                        <li><a class="ico1">Dashboard <span class="name_team">\</span></a></li>
+                    </ul>
+
+                    <div id="myModal">
+                        <input type="text">
+                        <div class="a_ico2">
+                            <a class="ico2"><i class="fas fa-search"></i></a>
+                            <a class="ico2" id="span"><i class="fas fa-times"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_top_right">
+                    <ul>
+                        <!--<li><a role="button" class="ico1" id="myBtn"><i class="fas fa-search"></i></a></li-->
+                        <li><a role="button" class="ico1"><i class="far fa-comments"></i></a></li>
+                        <li><a role="button" class="ico1"><i class="far fa-bell"></i></a></li>
+                        <li><a role="button" class="ico1" data-widget="fullscreen"><i class="fas fa-expand-arrows-alt"></i></a></li>
+                        <li>
+                            <a role="button" class="ico1"><img src="http://placehold.it/40/" href="test3.html" class="img_user" alt="User Image"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="body_data">
+            <div class="continer2">
+
+                <select class="room_select" id="room_select">
+                <option value="Room1">Room1</option>
+                <option value="Room2">Room2</option>
+                <option value="Room3">Room3</option>
+                <option value="Room4">Room4</option>
+                </select>
+
+                <div class="body_data_info">
+                    <div class="data_show">
+                        <div class="card">
+                            <div class="card_title">
+                                <h4>Team1
+                                    <a onclick="myFunction()" role="button" style="float: right;"><i class="fas fa-cog"></i></a>
+                                    <a onclick="myFunction1()" style="float: right;margin-right: 10px;"><i class='bx bx-add-to-queue' ></i></a>
+                                </h4>
+                            </div>
+                            <div class="all_task">
+                                <div class="task">
+                                    <div class="title_task">
+                                        <a href="test4.html">task</a>
+                                        <div class="progress" style="width: 60%;float: right;border-radius: 20px;background: rgb(32, 32, 32);">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;border-radius: 20px;background: rgb(92, 92, 92);">
+                                                70%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="point">
+                                        <ul>
+                                            <li>point1</li>
+                                            <li>point2</li>
+                                            <li>point3</li>
+                                            <li>point4</li>
+                                            <li>point5</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="task">
+                                    <div class="title_task">
+                                        <a href="test4.html">task</a>
+                                        <div class="progress" style="width: 60%;float: right;border-radius: 20px;background: rgb(32, 32, 32);">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;border-radius: 20px;background: rgb(92, 92, 92);">
+                                                70%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="point">
+                                        <ul>
+                                            <li>point1</li>
+                                            <li>point2</li>
+                                            <li>point3</li>
+                                            <li>point4</li>
+                                            <li>point5</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="task">
+                                    <div class="title_task">
+                                        <a href="test4.html">task</a>
+                                        <div class="progress" style="width: 60%;float: right;border-radius: 20px;background: rgb(32, 32, 32);">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;border-radius: 20px;background: rgb(92, 92, 92);">
+                                                70%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="point">
+                                        <ul>
+                                            <li>point1</li>
+                                            <li>point2</li>
+                                            <li>point3</li>
+                                            <li>point4</li>
+                                            <li>point5</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="task">
+                                    <div class="title_task">
+                                        <a href="test4.html">task</a>
+                                        <div class="progress" style="width: 60%;float: right;border-radius: 20px;background: rgb(32, 32, 32);">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;border-radius: 20px;background: rgb(92, 92, 92);">
+                                                70%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="point">
+                                        <ul>
+                                            <li>point1</li>
+                                            <li>point2</li>
+                                            <li>point3</li>
+                                            <li>point4</li>
+                                            <li>point5</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="task">
+                                    <div class="title_task">
+                                        <a href="test4.html">task</a>
+                                        <div class="progress" style="width: 60%;float: right;border-radius: 20px;background: rgb(32, 32, 32);">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;border-radius: 20px;background: rgb(92, 92, 92);">
+                                                70%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="point">
+                                        <ul>
+                                            <li>point1</li>
+                                            <li>point2</li>
+                                            <li>point3</li>
+                                            <li>point4</li>
+                                            <li>point5</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="task">
+                                    <div class="title_task">
+                                        <a href="test4.html">task</a>
+                                        <div class="progress" style="width: 60%;float: right;border-radius: 20px;background: rgb(32, 32, 32);">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;border-radius: 20px;background: rgb(92, 92, 92);">
+                                                70%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="point">
+                                        <ul>
+                                            <li>point1</li>
+                                            <li>point2</li>
+                                            <li>point3</li>
+                                            <li>point4</li>
+                                            <li>point5</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="task">
+                                    <div class="title_task1">
+                                        <a>task</a>
+                                        <div class="progress" style="width: 60%;float: right;border-radius: 20px;background: rgb(32, 32, 32);">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;border-radius: 20px;background: rgb(92, 92, 92);">
+                                                70%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="point">
+                                        <ul>
+                                            <li>point1</li>
+                                            <li>point2</li>
+                                            <li>point3</li>
+                                            <li>point4</li>
+                                            <li>point5</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="task">
+                                    <div class="title_task2">
+                                        <a>task</a>
+                                        <div class="progress" style="width: 60%;float: right;border-radius: 20px;background: rgb(32, 32, 32);">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;border-radius: 20px;background: rgb(92, 92, 92);">
+                                                70%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="point">
+                                        <ul>
+                                            <li>point1</li>
+                                            <li>point2</li>
+                                            <li>point3</li>
+                                            <li>point4</li>
+                                            <li>point5</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card_title">
+                                <h4>Team1
+                                    <a onclick="myFunction()" role="button" style="float: right;"><i class="fas fa-cog"></i></a>
+                                    <a onclick="myFunction1()" style="float: right;margin-right: 10px;"><i class='bx bx-add-to-queue' ></i></a>
+                                </h4>
+                            </div>
+                            <div class="all_task">
+                                <div class="task">
+                                    <div class="title_task1">
+                                        <a href="test4.html">task</a>
+                                        <div class="progress" style="width: 60%;float: right;border-radius: 20px;background: rgb(32, 32, 32);">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;border-radius: 20px;background: rgb(92, 92, 92);">
+                                                70%
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="point">
+                                        <ul>
+                                            <li>point1</li>
+                                            <li>point2</li>
+                                            <li>point3</li>
+                                            <li>point4</li>
+                                            <li>point5</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edite" id="nav4">
+                    <div class="data">
+                        <a onclick="myFunction()" role="button" style="font-size: 34px;float: right;width: auto;margin-top: 8px;">
+                            <i class='bx bx-x'></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a>name team</a>
+                                <input type="text">
+                                <button>Edit</button>
+                            </li>
+                            <li>
+                                <a>des</a>
+                                <textarea type="text"></textarea>
+                                <button>Edit</button>
+                            </li>
+                            <li>
+                                <a>Member</a>
+                                <ul class="name_member">
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> paula
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> beshoy
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> wagdy
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> andew
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> yahya
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> paula
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> beshoy
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> wagdy
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> andew
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> yahya
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> paula
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> beshoy
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> wagdy
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> andew
+                                    </li>
+                                    <li>
+                                        <img src="http://placehold.it/60/" class="img_user" style="float: left; margin: auto;"> yahya
+                                    </li>
+                                </ul>
+                                <button>Edit</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="edite1" id="nav5">
+                    <div class="data1">
+                        <a onclick="myFunction1()" role="button" style="font-size: 34px;float: right;width: auto;margin-top: 8px;">
+                            <i class='bx bx-x'></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a>Task title</a>
+                                <input type="text">
+                            </li>
+                            <li>
+                                <a>from</a>
+                                <input type="date">
+                            </li>
+                            <li>
+                                <a>to</a>
+                                <input type="date">
+                            </li>
+                            <li>
+                                <a>des</a>
+                                <textarea type="text"></textarea>
+                            </li>
+                            <li id="div-container">
+                                <a>checkpoint <p onclick="myFunction2()" role="button" style="width: auto;display: contents;"><i class='bx bxs-add-to-queue' ></i></p></a>
+                                <div id="div-container">
+                                    <input type="text">
+                                </div>
+                            </li>
+                        </ul>
+                        <button>add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="all.js"></script>

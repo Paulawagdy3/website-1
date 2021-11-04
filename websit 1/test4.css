@@ -1,0 +1,271 @@
+.body {
+    position: absolute;
+    top: 80px;
+}
+
+.container3 {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.info_task {
+    border-top: 1px solid red;
+    padding-top: 35px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.edit_proj {
+    float: right;
+    margin-top: -51px;
+    margin-right: 30px;
+    background: white;
+    padding: 5px;
+}
+
+.name_proj {
+    display: block;
+    margin-top: 25px;
+}
+
+.time {
+    float: right;
+}
+
+.dec {
+    margin: 70px auto;
+    background: #ffffff4f;
+    padding: 25px 10px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid #8f8e8e;
+}
+
+.check_points {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #c0c0c0;
+    margin-bottom: 80px;
+}
+
+.point {
+    margin-bottom: 40px;
+}
+
+.edit_point {
+    float: right;
+    margin-right: 30px;
+    background: white;
+    padding: 5px;
+}
+
+#div-container input {
+    display: block;
+    margin-top: 30px;
+}
+
+.check_title {
+    font-size: 24px;
+    margin-top: -27px;
+    background: #fff;
+    width: max-content;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.Des_title {
+    font-size: 24px;
+    margin-top: -40px;
+    background: #fff;
+    width: max-content;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.start {
+    margin-right: 41px;
+    border-right: 5px solid green;
+    padding: 0 5px 0 0;
+    border-radius: 5px;
+}
+
+.end {
+    border-right: 5px solid rgb(255, 0, 0);
+    padding: 0 5px 0 0;
+    border-radius: 5px;
+}
+
+.activity {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #c0c0c0;
+    height: 700px;
+}
+
+.activity_title {
+    font-size: 24px;
+    margin-top: -25px;
+    background: #fff;
+    width: max-content;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.all_msg li {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.all_msg {
+    height: 620px;
+    overflow-y: auto;
+}
+
+.msg {
+    background: #e4e4e4;
+    padding: 0px 15px;
+    min-width: 140px;
+    display: inline flow-root list-item;
+    border-radius: 5px;
+}
+
+.big_msg {
+    margin: 0 50px;
+}
+
+.img_user_user {
+    margin-left: -60px;
+    margin-top: 0px;
+    float: left;
+    border-radius: 25px;
+}
+
+.input_text1 {
+    width: 99%;
+    display: grid;
+    margin-top: 15px;
+    margin-left: -2px;
+    border: 1px solid black;
+    height: 29px;
+    border-radius: 10px;
+}
+
+.bottom_text {
+    float: right;
+    margin-top: -25px;
+    margin-right: 35px;
+}
+
+.bottom_text i,
+.bottom_text2 i {
+    color: rgb(54, 54, 54);
+}
+
+.bottom_text2 {
+    float: right;
+    background: #a6a6a6;
+    padding: 7px;
+    margin: -32px 0px 0 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.replay {
+    margin-top: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.name_sender {
+    margin-top: -26px;
+    background: #a6a6a6;
+    width: max-content;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px 10px 0 0;
+    margin-left: -10px;
+}
+
+.data1 {
+    margin: auto;
+    background: white;
+    width: 70%;
+    height: 90%;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.edite1 {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    background: #42424259;
+    display: none;
+}
+
+.data1 ul {
+    list-style-type: none;
+    width: 80%;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+.data1 ul li {
+    margin-bottom: 30px;
+}
+
+.data1 ul li input {
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+
+.data1 ul a {
+    width: 20%;
+    display: inline-block;
+}
+
+.data1 button {
+    float: right;
+    padding: 5px 15px;
+    margin-top: -90px;
+    margin-right: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+textarea {
+    min-width: 80%;
+    max-width: 80%;
+    margin: auto;
+    display: block;
+    min-height: 100px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.data1 li {
+    border: 1px solid #d7d6d6;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.edite1 ul a {
+    display: block;
+    padding: 10px;
+    margin-top: -30px;
+    background: white;
+    width: max-content;
+    margin-left: 10px;
+}
